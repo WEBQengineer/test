@@ -60,6 +60,7 @@ public class LoginTest {
 
         //下边的代码为写完接口的测试代码
         String result = getResult(loginCase);
+        System.out.println("lalala");
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
@@ -87,6 +88,7 @@ public class LoginTest {
         //将参数信息添加到方法中
         StringEntity entity = new StringEntity(param.toString(),"utf-8");
         post.setEntity(entity);
+        System.out.println("heihei");
         //声明一个对象来进行响应结果的存储
         String result;
         //执行post方法
