@@ -1,0 +1,21 @@
+2020-03-11 14:16:41.008 [main] INFO  com.course.Application - Starting Application on PC-201912201152 with PID 8556 (C:\Users\Administrator\Desktop\demo8\target\classes started by Administrator in C:\Users\Administrator\Desktop\demo8)
+2020-03-11 14:16:41.013 [main] INFO  com.course.Application - The following profiles are active: dev
+2020-03-11 14:16:42.471 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2020-03-11 14:16:42.797 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1a083213] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-11 14:16:43.316 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-03-11 14:16:43.458 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-11 14:16:43.458 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2020-03-11 14:16:43.470 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Java\jdk1.8.0_231\\bin;D:\Java\apache-ant-1.9.14\bin;E:\EduPac\android-sdk\platform-tools;E:\EduPac\android-sdk\tools;E:\EduPac\apache-maven-3.6.3\bin;E:\EduPac\mysql\mysql-8.0.19-winx64\bin;C:\user-defined\Git\cmd;D:\python\Scripts\;D:\python\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;E:\EduPac\android-sdk\platform-tools;E:\EduPac\android-sdk\tools;;C:\user-defined\Microsoft VS Code\bin;C:\user-defined\IntelliJ IDEA 2019.3.3\bin;;.]
+2020-03-11 14:16:43.631 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/luckymoney] - Initializing Spring embedded WebApplicationContext
+2020-03-11 14:16:43.632 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2549 ms
+2020-03-11 14:16:44.522 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-11 14:16:44.673 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-03-11 14:16:44.716 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-11 14:16:44.748 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-11 14:16:44.765 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-11 14:16:44.989 [main] INFO  s.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2020-03-11 14:16:45.033 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/luckymoney'
+2020-03-11 14:16:45.036 [main] INFO  com.course.Application - Started Application in 4.702 seconds (JVM running for 6.161)
+2020-03-11 14:17:01.237 [http-nio-8081-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/luckymoney] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-11 14:17:01.237 [http-nio-8081-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-11 14:17:01.248 [http-nio-8081-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
